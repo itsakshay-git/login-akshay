@@ -1,38 +1,3 @@
-// import { createSlice } from '@reduxjs/toolkit';
-
-// const authSlice = createSlice({
-//   name: 'auth',
-//   initialState: {
-//     email: '',
-//     name: '',
-//     password: '',
-//     isLoggedIn: false,
-//   },
-//   reducers: {
-//     registerUser: (state, action) => {
-//       const { email, name, password } = action.payload;
-//       // Store user data in the state
-//       state.email = email;
-//       state.name = name;
-//       state.password = password;
-//     },
-//     loginUser: (state) => {
-//       // Update login status
-//       state.isLoggedIn = true;
-//     },
-//     logoutUser: (state) => {
-//       // Clear user data and reset login status
-//       state.email = '';
-//       state.name = '';
-//       state.password = '';
-//       state.isLoggedIn = false;
-//     },
-//   },
-// });
-
-// export const { registerUser, loginUser, logoutUser } = authSlice.actions;
-// export default authSlice.reducer;
-
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
